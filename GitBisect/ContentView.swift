@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     private let provider: ContentProvider = ContentProvierImpl()
-            
+    
     var body: some View {
         VStack {
             Image(systemName: provider.icon)
