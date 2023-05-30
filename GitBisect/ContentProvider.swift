@@ -15,14 +15,14 @@ protocol ContentProvider {
 
 class ContentProvierImpl: ContentProvider {
     var icon: String {
-        "checkmark.shield"
+        "ladybug.fill"
     }
 
     var background: Color {
-        .green
+        .red
     }
 
     var title: String {
-        "All good!"
+        "Bugged!"
     }
 }
